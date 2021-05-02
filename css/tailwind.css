@@ -5,3 +5,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-block px-5 py-3 text-sm font-semibold tracking-wider text-white uppercase rounded-lg sm:text-base focus:outline-none focus:ring focus:ring-offset-2 ;
+  }
+
+  .btn-primary {
+    @apply text-white uppercase bg-indigo-500 hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600;
+  }
+
+  .btn-secondary {
+    @apply text-gray-800 uppercase bg-gray-300 hover:bg-gray-200 focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-400;
+  }
+}
