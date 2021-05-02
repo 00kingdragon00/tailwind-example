@@ -1,3 +1,5 @@
-node_modules/
+06-extracting-reusable-components/node_modules/
+node_modules
 dist/
 .DS_Store
+.vscode/
