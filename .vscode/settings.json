@@ -3,6 +3,7 @@
         "Workcation"
     ],
     "css.validate": false,
+    "scss.validate": false,
     "stylelint.config": {
       "rules": {
         "at-rule-no-unknown": [true, {
